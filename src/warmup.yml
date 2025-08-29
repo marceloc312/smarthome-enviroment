@@ -1,6 +1,6 @@
 ---
 - name: Setup Docker, Docker Swarm, and Portainer
-  hosts: raspberrypi
+  hosts: ubuntu
   become: yes
   tasks:
     - name: Update apt cache
